@@ -1,101 +1,133 @@
-{{
+{
   "special_ticker": {
 
   },
   "ticker": [
-    ["Graviex", "ZEL", "BTC"],
-    ["Stex", "ZEL", "BTC"],
-    ["Stex", "ZEL", "ETH"],
-    ["TradeOgre", "ZEL", "BTC"],
-    ["Tokok", "ZEL", "BTC"],
-    ["Tokok", "ZEL", "ETH"],
-    ["SafeTrade", "ZEL", "BTC"],
-    ["SafeTrade", "ZEL", "SAFE"]
+    ["Graviex", "MON", "BTC"],
+    ["SouthXchange", "MON", "BTC"],
+    ["UnnamedExchange", "MON", "BTC"],
+    ["NLExchange", "MON", "BTC"],
+    ["iHostmn_Buy&Sell", "MON2", "BTC"],
+    "ZeonExchange_BTC",
+    "ZeonExchange_LTC",
+    ["UnnamedExchange", "MON", "UTIP"],
+    ["UnnamedExchange", "MON", "ETH"],
+    ["UnnamedExchange", "MON", "LTC"],
+    ["UnnamedExchange", "MON", "DOGE"]
   ],
   "color": {
-    "prices": 3447003,
-    "coininfo": 888688,
-    "basic" : 12758363,
-    "super1" : 14348789,
-    "bamf" : 16112128,
-    "explorer": 888688,
-    "other": 15662976,
+    "price": 3447003,
+
+    "stats": 888688,
+    "stages": 888688,
+    "earnings": 888688,
+    "mining": 888688,
+    "addnodes": 5198940,
+
+    "balance": 888688,
+    "block_hash": 888688,
+
+    "my_address_add": 888688,
+    "my_address_del": 888688,
+    "my_address_list": 888688,
+    "my_balance": 888688,
+
+    "my_masternode_add": 888688,
+    "my_masternode_del": 888688,
+    "my_masternode_list": 888688,
+    "my_earnings": 888688,
+
+    "help": 15662976,
+    "about": 15662976,
+
+    "warning": 16744231,
     "error": 9375030
   },
   "devs": [
-    "412476381725720576"
+    "412476381725720576",
+    "503742751830179855"
   ],
   "stages": [
     {
-      "block": 657000,
-      "coll": 100000,
-      "mn": 22.50,
-      "pow": 112.50
+      "block": 1,
+      "coll": 50000,
+      "mn": 1.60,
+      "pos": 0.70,
+      "devfee": 0.00
     },
     {
-      "block": 1642500,
-      "coll": 100000,
-      "mn":11.25 ,
-      "pow": 56.25
+      "block": 50000,
+      "coll": 50000,
+      "mn": 1.60,
+      "pos": 0.70,
+      "devfee": 0.00
     },
     {
-      "block": 4106250,
-      "coll": 100000,
-      "mn": 5.625,
-      "pow": 28.125
+      "block": 1101201,
+      "coll": 50000,
+      "mn": 1.60999999,
+      "pos": 0.69,
+      "devfee": 0.00
     },
     {
-      "block": 10265625,
-      "coll": 100000,
-      "mn": 2.8125,
-      "pow": 14.0625
-    }
-    
-  ],
-
-  "stages1": [
+      "block": 2152401,
+      "coll": 50000,
+      "mn": 1.68,
+      "pos": 0.42,
+      "devfee": 0.00
+    },
     {
-      "block": 657000,
-      "coll": 10000,
-      "mn": 5.625,
-      "pow": 112.5 
-    }
-    
-  ],
- 
-  "stages2": [
+      "block": 3203601,
+      "coll": 50000,
+      "mn": 1.52,
+      "pos": 0.38,
+      "devfee": 0.00
+    },
     {
-      "block": 657000,
-      "coll": 25000,
-      "mn": 9.375,
-      "pow": 112.5
-    }
-
-  ],
-
-  "stages3": [
+      "block": 4254801,
+      "coll": 50000,
+      "mn": 1.36,
+      "pos": 0.34,
+      "devfee": 0.00
+    },
     {
-      "block": 657000,
-      "coll": 100000,
-      "mn": 22.5,
-      "pow": 112.5
+      "block": 5306001,
+      "coll": 50000,
+      "mn": 1.20,
+      "pos": 0.30,
+      "devfee": 0.00
+    },
+    {
+      "block": 6357201,
+      "coll": 50000,
+      "mn": 1.04,
+      "pos": 0.26,
+      "devfee": 0.00
+    },
+    {
+      "block": 7408401,
+      "coll": 50000,
+      "mn": 0.88,
+      "pos": 0.22,
+      "devfee": 0.00
+    },
+    {
+      "block": 21969120,
+      "coll": 50000,
+      "mn": 0.80,
+      "pos": 0.20,
+      "devfee": 0.00
     }
-
   ],
-
   "requests": {
-    "blockcount": "zelcash-cli getblockcount",
-    "mncount": "zelcash-cli getzelnodecount | jq  .total",
-    "mncount1": "zelcash-cli getzelnodecount | jq .",
-    "mncount2": "zelcash-cli getzelnodecount | jq .",
-    "mncount3": "zelcash-cli getzelnodecount | jq .",
-    "supply": "curl -s  https://explorer.zel.cash/api/circulation | jq .circulationsupply",
-    "balance": "curl -k https://explorer.zel.cash/api/addr/",
-    "blockindex": "zelcash-cli getblockhash ",
-    "blockhash": "zelcash-cli getblock ",
-    "hashrate": "zelcash-cli getnetworkhashps",
-    "mnstat": "zelcash-cli listzelnodes  ",
-    "addnodes": "zelcash-cli getpeerlist"
+    "blockcount": "moneybyted getblockcount ",
+    "mncount": "moneybyted masternode count ",
+    "supply": "curl -k https://explorer.moneybyte.org/ext/getmoneysupply",
+    "balance": "curl -k https://explorer.moneybyte.org/ext/getaddress/",
+    "blockindex": "moneybyted getblockhash ",
+    "blockhash": "moneybyted getblock ",
+    "mnstat": "moneybyted masternodelist pubkey ",
+    "addnodes": "moneybyted getpeerinfo "
   },
   "statorder": [
     "blockcount",
@@ -104,6 +136,7 @@
     "collateral",
     "mnreward",
     "powreward",
+    "posreward",
     "devfee",
     "locked",
     "avgmnreward",
@@ -111,16 +144,16 @@
   ],
   "monitor": {
     "enabled": true,
-    "channel": "642595194327400498",
+    "channel": "629362811813888010",
     "interval": 600
   },
   "hidenotsupported": false,
   "useraddrs": true,
   "usermns": true,
-  "sourcecode": "https://github.com/CryptominerPaul/",
-  "channel": [ "503796710867206144", "566329958478118912"],
+  "sourcecode": "https://github.com/CryptominerPaul",
+  "channel": [ "408969525510275082" ],
   "prefix": "%",
-  "coin": "ZEL",
-  "blocktime": 120,
+  "coin": "MON",
+  "blocktime": 60,
   "token": "YOU_WILL_NEED_YOUR_OWN_TOKEN_"
 }
