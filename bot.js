@@ -1182,27 +1182,27 @@ class BotCommand {
     
     about() {
         const donate = { // don't be evil with this, please
-            "BTC":	"1LqBf2ephKHFB1xYezoRjWG3or6TNA5NT1"
-            "ZEL":	"t1h5ZGK8hupD6A3v8wHmUjPZdqUfLcyX28U"
-            "RVN":	"RV7NjYY7J95pF2Kk8AnYq2bFa7Z3yFLdVG"
-            "MON":	"MurYZ1KR2jTW5uBNiZvPcdzXkJXTt4WsjC"
-            "AGM":	"MG4gQB6JaYDWvw6GBMZtfCjxWBjkmActxq"
-            "INN": 	"i8jsXVFCTRUJucWxquSnqhJ5kMti2fJwhA"
-            "LUX":	"LhQc7FwxFCGiYk688ukNyf9UgYj42wZ9hm"
-            "BIR":	"KRZhzCqTpJycxK5oqDhxQv5jvdUE4m5aiq"
-            "COW":	"CSJCyNzC3FUFWfiUsZoqAJQmkfjGBkvpij"
-            "ZCR":	"zHR4iac4kCkvqjDZzF9x9JaG8wXR7agNm4"
-            "DRV":	"DAWBSBHwmLDA1JERx6UHbxTLUyiJ3DHpZW"
-            "GIN":	"GcSpTEqwVkoJMuQ9vjiQC7MQNatxrQuKrf"
-            "BITC":	"b2RwJqvxyTQk7PZ1ZKywN4LSLPBS7EURR1brKaiVojawUoX1WmR9"
-            "XDNA": "XXpUbHFAYSygvxMcVFrdbDKdNFBexd8kvo"
-            "ZEON":	"ZMgp6yzp2VtUUMmbzYhpBt7yXiYJwdRi46"
-            "KONJ":	"KnYiKPJMvTeUAPmDKvk7pJrVgmpHnt9Ni4"
-            "XGCS":	"XJEzQ121yWJPTeDCBQQYt9ec8fMta6T6xJ"
-            "REEX":	"Rn16V4hb5EoiChceotZxyCPWHfdHdsg3wR"
-            "DRVF":	"Dc9af6ivfMMywfr46AZU3wgkzNMBug5xoQ"
-            "MDEX":	"XvxfCJb4FHaLCTiA3SBJEopE3uaDJfymdo"
-            "NTRN":	"9TkgUPscqst6uAbuw4wMidTjqirmhpRD8c"
+            "BTC":	"1LqBf2ephKHFB1xYezoRjWG3or6TNA5NT1",
+            "ZEL":	"t1h5ZGK8hupD6A3v8wHmUjPZdqUfLcyX28U",
+            "RVN":	"RV7NjYY7J95pF2Kk8AnYq2bFa7Z3yFLdVG",
+            "MON":	"MurYZ1KR2jTW5uBNiZvPcdzXkJXTt4WsjC",
+            "AGM":	"MG4gQB6JaYDWvw6GBMZtfCjxWBjkmActxq",
+            "INN": 	"i8jsXVFCTRUJucWxquSnqhJ5kMti2fJwhA",
+            "LUX":	"LhQc7FwxFCGiYk688ukNyf9UgYj42wZ9hm",
+            "BIR":	"KRZhzCqTpJycxK5oqDhxQv5jvdUE4m5aiq",
+            "COW":	"CSJCyNzC3FUFWfiUsZoqAJQmkfjGBkvpij",
+            "ZCR":	"zHR4iac4kCkvqjDZzF9x9JaG8wXR7agNm4",
+            "DRV":	"DAWBSBHwmLDA1JERx6UHbxTLUyiJ3DHpZW",
+            "GIN":	"GcSpTEqwVkoJMuQ9vjiQC7MQNatxrQuKrf",
+            "BITC":	"b2RwJqvxyTQk7PZ1ZKywN4LSLPBS7EURR1brKaiVojawUoX1WmR9",
+            "XDNA":     "XXpUbHFAYSygvxMcVFrdbDKdNFBexd8kvo",
+            "ZEON":	"ZMgp6yzp2VtUUMmbzYhpBt7yXiYJwdRi46",
+            "KONJ":	"KnYiKPJMvTeUAPmDKvk7pJrVgmpHnt9Ni4",
+            "XGCS":	"XJEzQ121yWJPTeDCBQQYt9ec8fMta6T6xJ",
+            "REEX":	"Rn16V4hb5EoiChceotZxyCPWHfdHdsg3wR",
+            "DRVF":	"Dc9af6ivfMMywfr46AZU3wgkzNMBug5xoQ",
+            "MDEX":	"XvxfCJb4FHaLCTiA3SBJEopE3uaDJfymdo",
+            "NTRN":	"9TkgUPscqst6uAbuw4wMidTjqirmhpRD8c",
             "ESBC":	"eJiJY8FuyFxdRzHJwcVogjv1gbB3o73diM"
         };
         this.fn_send({
