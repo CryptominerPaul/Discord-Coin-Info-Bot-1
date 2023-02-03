@@ -13,10 +13,15 @@ Coin-Info-Bot that post Exchange Pricing POW,POS, &amp; MN Tier-lvl-1 Stats, and
 - [Additional](#additional)
 
 # <a name = "how-to-install"></a> How to install
+```
+apt-get update
+
+apt-get upgrade -y
+```
 
 First, you can use this guide to create the bot: https://www.digitaltrends.com/gaming/how-to-make-a-discord-bot/
 
-The bot runs on Node.js, version 12.x or higher is recommended, it can be obtained here: https://nodejs.org/en/ 
+The bot runs on Node.js, version 14.x or higher is recommended, it can be obtained here: https://nodejs.org/en/ 
 
 The bot can run on any machine, but it's recommended to use a linux machine, since some commands may require a wallet that accepts RPC commands (almost all the commands can be run by calling the explorer API with `curl -s`).
 In case of using a Linux machine for running the bot, you can install Node.js with these 2 commands:
@@ -42,7 +47,20 @@ node bot.js - to start
 Control AD - to exit
 screen -r to resume the detached screen
 ```
-
+If bot Doesn't run you may need to add some code
+1. Locate the Client
+```
+locate   ClientDataManager.js
+```
+2. Nano the file to line 81
+```
+nano +81   /root/COIN_NAME-Info-Bot/node_modules/discord.js/src/client/ClientDataManager.js
+```
+3. add this line of code and save
+```
+if(channel != null)
+        guild.channels.set(channel.id, channel);
+```
 # <a name = "bot-commands"></a> Bot commands
 
 - **!price:** Shows the last price, volume (in BTC), ask, bid and a link to the exchange for every exchange where the coin is listed.
