@@ -14,7 +14,7 @@ Coin-Info-Bot that post Exchange Pricing POW,POS, &amp; MN Tier-lvl-1 Stats, and
 
 # <a name = "how-to-install"></a> How to install
 
-First, you can use this guide to crate the bot: https://www.digitaltrends.com/gaming/how-to-make-a-discord-bot/
+First, you can use this guide to create the bot: https://www.digitaltrends.com/gaming/how-to-make-a-discord-bot/
 
 The bot runs on Node.js, version 12.x or higher is recommended, it can be obtained here: https://nodejs.org/en/ 
 
