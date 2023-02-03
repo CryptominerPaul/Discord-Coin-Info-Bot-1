@@ -21,7 +21,7 @@ The bot runs on Node.js, version 12.x or higher is recommended, it can be obtain
 The bot can run on any machine, but it's recommended to use a linux machine, since some commands may require a wallet that accepts RPC commands (almost all the commands can be run by calling the explorer API with `curl -s`).
 In case of using a Linux machine for running the bot, you can install Node.js with these 2 commands:
 ```
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 After installing Node.js, you'll need to install these 2 dependencies with the commands:
